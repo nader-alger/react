@@ -7,7 +7,6 @@ import EditEmployee from '../Components/EditEmployee';
 import Header from '../Components/Header';
 
 function Employees() {
-//let role='';
 
 
 const [role,setRole]=useState('');

@@ -6,7 +6,7 @@ const navigation = [
   { name: 'Employees', href: '/Employees'},
   { name: 'Customers', href: '/Customers' },
   { name: 'Ditionary', href: '/Dictionary' },
-  { name: 'Calendar', href: '/Other2' },
+  { name: 'Definition', href: '/Definition' },
 ]
 
 function classNames(...classes) {
@@ -140,8 +140,7 @@ export default function Header(props) {
      
     </Disclosure>
     <div className="bg-gray-300">
-      <div className="max-auto max-w-7xl  min-h-screen px-2 py-2" > 
-        {/* max-w-7xl */}
+      <div className="max-auto max-w-7xl  min-h-screen px-3 py-2" > 
         {props.children}
       </div>
     </div>
